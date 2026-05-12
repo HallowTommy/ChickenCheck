@@ -1,0 +1,165 @@
+"common.save" = "Save";
+"common.cancel" = "Cancel";
+"common.delete" = "Delete";
+"common.close" = "Close";
+
+"tab.home" = "Today";
+"tab.eggs" = "Eggs";
+"tab.reminders" = "Reminders";
+"tab.notes" = "Notes";
+"tab.profile" = "Profile";
+
+"onb.skip" = "Skip";
+"onb.next" = "Next";
+"onb.start" = "Get started";
+"onb.1.title" = "Meet your chicken friend";
+"onb.1.text" = "Care for your own little chicken every day — calm and friendly.";
+"onb.2.title" = "Daily care, fresh eggs";
+"onb.2.text" = "Feed, water, collect eggs, clean the coop, health check.";
+"onb.3.title" = "Reminders, notes, accessories";
+"onb.3.text" = "Set gentle reminders, write notes, dress up your chicken.";
+
+"home.greeting" = "Today with";
+"home.chicken_default" = "Henni";
+"home.days_short" = "days";
+"home.progress.title" = "Today's care";
+"home.progress.keep" = "Keep your daily care path going.";
+"home.progress.done" = "Day complete — well done!";
+"home.cta" = "Care for my chicken";
+"home.eggs.title" = "Total eggs · avg per day";
+
+"path.title" = "Care path";
+"path.done.title" = "Day complete!";
+"path.done.text" = "Your chicken is happy today. See you tomorrow.";
+"path.action.done" = "Mark done";
+"path.action.reset" = "Reopen";
+
+"care.feed.label" = "Feed";
+"care.feed.subtitle" = "Fresh grain in the bowl.";
+"care.water.label" = "Water";
+"care.water.subtitle" = "Top up clean water.";
+"care.eggs.label" = "Eggs";
+"care.eggs.subtitle" = "Collect today's eggs.";
+"care.clean.label" = "Coop";
+"care.clean.subtitle" = "Keep the coop tidy.";
+"care.health.label" = "Health";
+"care.health.subtitle" = "A quick wellness check.";
+
+"status.completed" = "Completed";
+"status.current" = "Now";
+"status.missed" = "Missed";
+"status.upcoming" = "Soon";
+
+"eggs.title" = "Egg log";
+"eggs.basket.title" = "Fresh eggs";
+"eggs.basket.subtitle" = "Track what you collected each day.";
+"eggs.week.title" = "This week";
+"eggs.day.mon" = "Mon";
+"eggs.day.tue" = "Tue";
+"eggs.day.wed" = "Wed";
+"eggs.day.thu" = "Thu";
+"eggs.day.fri" = "Fri";
+"eggs.day.sat" = "Sat";
+"eggs.day.sun" = "Sun";
+"eggs.total" = "Total";
+"eggs.average" = "Avg / Day";
+"eggs.best" = "Best day";
+"eggs.recent" = "Recent entries";
+"eggs.empty" = "Nothing yet — add your first egg.";
+"eggs.unit.one" = "egg";
+"eggs.unit.many" = "eggs";
+"eggs.add.title" = "Add eggs";
+"eggs.add.count" = "Count";
+"eggs.add.note" = "Short note (optional)";
+"eggs.mood.empty" = "Add your first egg — let's start!";
+"eggs.mood.gentle" = "Keep the rhythm — your chicken is happy.";
+"eggs.mood.steady" = "Nice week — solid egg yield.";
+"eggs.mood.great" = "Great job! More eggs than the weekly average.";
+
+"reminders.title" = "Reminders";
+"reminders.add" = "Add reminder";
+"reminders.empty" = "Set gentle reminders for daily care.";
+"reminders.daily" = "Every day";
+"reminders.weekend" = "Weekend";
+"reminders.notify.body" = "Your chicken is waiting for you.";
+"reminders.editor.title" = "Reminder";
+"reminders.editor.label" = "Task";
+"reminders.editor.preset" = "Preset";
+"reminders.editor.time" = "Time";
+"reminders.editor.days" = "Days";
+
+"reminder.preset.feed" = "Feed chicken";
+"reminder.preset.water" = "Refill water";
+"reminder.preset.eggs" = "Collect eggs";
+"reminder.preset.health" = "Health check";
+"reminder.preset.clean" = "Clean coop";
+"reminder.preset.evening" = "Wrap up the day with your chicken";
+
+"wd.mon" = "Mon";
+"wd.tue" = "Tue";
+"wd.wed" = "Wed";
+"wd.thu" = "Thu";
+"wd.fri" = "Fri";
+"wd.sat" = "Sat";
+"wd.sun" = "Sun";
+
+"notes.title" = "Notes";
+"notes.add" = "Add note";
+"notes.empty.title" = "Capture how your chicken feels today.";
+"notes.empty.body" = "Empty note";
+"notes.editor.new" = "New note";
+"notes.editor.edit" = "Edit note";
+"notes.editor.category" = "Category";
+"notes.editor.body" = "Observation";
+
+"note.cat.behavior" = "Behavior";
+"note.cat.health" = "Health";
+"note.cat.feed" = "Feed";
+"note.cat.cleaning" = "Cleaning";
+"note.cat.seasonal" = "Seasonal";
+
+"customize.title" = "Accessories";
+"customize.subtitle" = "Dress up your chicken with fun accessories.";
+"customize.note" = "Accessories are purely visual and free.";
+"customize.name.title" = "Chicken name";
+"customize.name.placeholder" = "e.g. Henni";
+
+"accessory.none" = "None";
+"accessory.bow" = "Bow";
+"accessory.hat" = "Hat";
+"accessory.glasses" = "Glasses";
+"accessory.scarf" = "Scarf";
+
+"profile.title" = "Profile";
+"profile.subtitle" = "Your little chicken friend";
+"profile.customize" = "Customize";
+"profile.support" = "Support";
+"profile.privacy" = "Privacy";
+"profile.reset" = "Reset progress";
+"profile.tagline" = "Daily chicken care.";
+"profile.reset.title" = "Reset everything?";
+"profile.reset.body" = "All entries, eggs, and notes will be removed.";
+"profile.reset.confirm" = "Reset";
+"profile.stat.streak" = "Streak";
+"profile.stat.best" = "Best streak";
+"profile.stat.total" = "Days cared";
+
+"privacy.fallback" = "Privacy page could not load.";
+
+"home.wellness.title" = "Wellness";
+"home.quick.hint" = "Quick access";
+"onb.step" = "Step %d of %d";
+"onb.almost" = "Almost there!";
+"path.toast.feed" = "Yum, thanks!";
+"path.toast.water" = "Fresh water!";
+"path.toast.eggs" = "An egg collected!";
+"path.toast.clean" = "Coop is clean!";
+"path.toast.health" = "All good!";
+"notes.preview.read_more" = "… read more";
+"notes.empty.sub" = "Capture observations so you remember them later.";
+"reminders.empty.title" = "No reminders yet";
+"eggs.empty.sub" = "Add your first egg and watch the streak grow.";
+"day.complete.streak" = "Streak +1!";
+"day.complete.cta" = "Keep going";
+"common.minus" = "Less";
+"common.plus" = "More";

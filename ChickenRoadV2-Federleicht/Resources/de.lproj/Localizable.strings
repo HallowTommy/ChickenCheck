@@ -1,0 +1,165 @@
+"common.save" = "Speichern";
+"common.cancel" = "Abbrechen";
+"common.delete" = "Löschen";
+"common.close" = "Schließen";
+
+"tab.home" = "Heute";
+"tab.eggs" = "Eier";
+"tab.reminders" = "Erinnerungen";
+"tab.notes" = "Tagebuch";
+"tab.profile" = "Profil";
+
+"onb.skip" = "Überspringen";
+"onb.next" = "Weiter";
+"onb.start" = "Loslegen";
+"onb.1.title" = "Willkommen bei deinem Hühner-Freund";
+"onb.1.text" = "Pflege jeden Tag dein eigenes kleines Huhn — ganz ohne Druck.";
+"onb.2.title" = "Pflege täglich, sammle Eier";
+"onb.2.text" = "Füttern, tränken, Eier sammeln, Stall reinigen, Gesundheits-Check.";
+"onb.3.title" = "Erinnerungen, Tagebuch, Schmuck";
+"onb.3.text" = "Setze sanfte Erinnerungen, schreibe Notizen, schmücke dein Huhn.";
+
+"home.greeting" = "Heute mit";
+"home.chicken_default" = "Henni";
+"home.days_short" = "Tage";
+"home.progress.title" = "Heutige Pflege";
+"home.progress.keep" = "Halte deinen Pflegepfad sanft am Laufen.";
+"home.progress.done" = "Tag abgeschlossen — gut gemacht!";
+"home.cta" = "Mein Huhn pflegen";
+"home.eggs.title" = "Eier insgesamt · Ø pro Tag";
+
+"path.title" = "Pflegepfad";
+"path.done.title" = "Tag abgeschlossen!";
+"path.done.text" = "Dein Huhn ist heute glücklich. Komm morgen wieder.";
+"path.action.done" = "Erledigt";
+"path.action.reset" = "Zurücksetzen";
+
+"care.feed.label" = "Futter";
+"care.feed.subtitle" = "Frisches Korn in den Napf.";
+"care.water.label" = "Wasser";
+"care.water.subtitle" = "Sauberes Wasser nachfüllen.";
+"care.eggs.label" = "Eier";
+"care.eggs.subtitle" = "Heute gelegte Eier sammeln.";
+"care.clean.label" = "Stall";
+"care.clean.subtitle" = "Stall sauber halten.";
+"care.health.label" = "Gesund";
+"care.health.subtitle" = "Kurzer Wohlfühl-Check.";
+
+"status.completed" = "Erledigt";
+"status.current" = "Jetzt";
+"status.missed" = "Verpasst";
+"status.upcoming" = "Bald";
+
+"eggs.title" = "Eier-Tagebuch";
+"eggs.basket.title" = "Frische Eier";
+"eggs.basket.subtitle" = "Trage täglich ein, was du gesammelt hast.";
+"eggs.week.title" = "Diese Woche";
+"eggs.day.mon" = "Mo";
+"eggs.day.tue" = "Di";
+"eggs.day.wed" = "Mi";
+"eggs.day.thu" = "Do";
+"eggs.day.fri" = "Fr";
+"eggs.day.sat" = "Sa";
+"eggs.day.sun" = "So";
+"eggs.total" = "Gesamt";
+"eggs.average" = "Ø pro Tag";
+"eggs.best" = "Bester Tag";
+"eggs.recent" = "Letzte Einträge";
+"eggs.empty" = "Noch keine Einträge — füge dein erstes Ei hinzu.";
+"eggs.unit.one" = "Ei";
+"eggs.unit.many" = "Eier";
+"eggs.add.title" = "Eier eintragen";
+"eggs.add.count" = "Anzahl";
+"eggs.add.note" = "Kurze Notiz (optional)";
+"eggs.mood.empty" = "Trag dein erstes Ei ein — los geht's!";
+"eggs.mood.gentle" = "Halt den Rhythmus, dein Huhn freut sich.";
+"eggs.mood.steady" = "Schöne Woche — solide Eier-Ausbeute.";
+"eggs.mood.great" = "Großartig! Mehr Eier als im Wochendurchschnitt.";
+
+"reminders.title" = "Erinnerungen";
+"reminders.add" = "Erinnerung hinzufügen";
+"reminders.empty" = "Setze sanfte Erinnerungen für die tägliche Pflege.";
+"reminders.daily" = "Jeden Tag";
+"reminders.weekend" = "Wochenende";
+"reminders.notify.body" = "Dein Huhn freut sich auf dich.";
+"reminders.editor.title" = "Erinnerung";
+"reminders.editor.label" = "Aufgabe";
+"reminders.editor.preset" = "Vorlage";
+"reminders.editor.time" = "Zeit";
+"reminders.editor.days" = "Tage";
+
+"reminder.preset.feed" = "Huhn füttern";
+"reminder.preset.water" = "Wasser nachfüllen";
+"reminder.preset.eggs" = "Eier sammeln";
+"reminder.preset.health" = "Gesundheits-Check";
+"reminder.preset.clean" = "Stall reinigen";
+"reminder.preset.evening" = "Tag mit dem Huhn abschließen";
+
+"wd.mon" = "Mo";
+"wd.tue" = "Di";
+"wd.wed" = "Mi";
+"wd.thu" = "Do";
+"wd.fri" = "Fr";
+"wd.sat" = "Sa";
+"wd.sun" = "So";
+
+"notes.title" = "Tagebuch";
+"notes.add" = "Notiz hinzufügen";
+"notes.empty.title" = "Halte fest, wie es deinem Huhn heute geht.";
+"notes.empty.body" = "Leere Notiz";
+"notes.editor.new" = "Neue Notiz";
+"notes.editor.edit" = "Notiz bearbeiten";
+"notes.editor.category" = "Kategorie";
+"notes.editor.body" = "Beobachtung";
+
+"note.cat.behavior" = "Verhalten";
+"note.cat.health" = "Gesundheit";
+"note.cat.feed" = "Futter";
+"note.cat.cleaning" = "Reinigung";
+"note.cat.seasonal" = "Saison";
+
+"customize.title" = "Schmuck";
+"customize.subtitle" = "Schmücke dein Huhn nach Lust und Laune.";
+"customize.note" = "Schmuck ist nur dekorativ und kostenlos.";
+"customize.name.title" = "Name deines Huhns";
+"customize.name.placeholder" = "z. B. Henni";
+
+"accessory.none" = "Ohne";
+"accessory.bow" = "Schleife";
+"accessory.hat" = "Hut";
+"accessory.glasses" = "Brille";
+"accessory.scarf" = "Schal";
+
+"profile.title" = "Profil";
+"profile.subtitle" = "Dein kleiner Hühner-Freund";
+"profile.customize" = "Schmücken";
+"profile.support" = "Support";
+"profile.privacy" = "Datenschutz";
+"profile.reset" = "Fortschritt zurücksetzen";
+"profile.tagline" = "Hühnerpflege für jeden Tag.";
+"profile.reset.title" = "Wirklich zurücksetzen?";
+"profile.reset.body" = "Alle Einträge, Eier und Notizen werden gelöscht.";
+"profile.reset.confirm" = "Zurücksetzen";
+"profile.stat.streak" = "Streak";
+"profile.stat.best" = "Bester Streak";
+"profile.stat.total" = "Tage gepflegt";
+
+"privacy.fallback" = "Datenschutz-Seite konnte nicht geladen werden.";
+
+"home.wellness.title" = "Wohlfühl-Status";
+"home.quick.hint" = "Schnellzugriff";
+"onb.step" = "Schritt %d von %d";
+"onb.almost" = "Fast geschafft!";
+"path.toast.feed" = "Lecker, danke!";
+"path.toast.water" = "Frisches Wasser!";
+"path.toast.eggs" = "Ein Ei gesammelt!";
+"path.toast.clean" = "Stall ist sauber!";
+"path.toast.health" = "Alles gut!";
+"notes.preview.read_more" = "… mehr lesen";
+"notes.empty.sub" = "Halte Beobachtungen fest, damit du dich später erinnerst.";
+"reminders.empty.title" = "Noch keine Erinnerungen";
+"eggs.empty.sub" = "Trage dein erstes Ei ein und sieh den Fortschritt.";
+"day.complete.streak" = "Streak +1!";
+"day.complete.cta" = "Weiter";
+"common.minus" = "Weniger";
+"common.plus" = "Mehr";

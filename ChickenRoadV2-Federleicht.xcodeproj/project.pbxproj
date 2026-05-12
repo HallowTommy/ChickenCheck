@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		K20001 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20001; };
+		K20002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20002; };
+		K20003 /* BeaconCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20003; };
+		K20004 /* BeaconCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20004; };
+		K20005 /* BeaconConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20005; };
+		K20006 /* BeaconPing.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20006; };
+		K20007 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20007; };
+		K20008 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20008; };
+		K20009 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20009; };
+		K20010 /* CareKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20010; };
+		K20011 /* CareStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20011; };
+		K20012 /* CareTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20012; };
+		K20013 /* EggEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20013; };
+		K20014 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20014; };
+		K20015 /* ChickenNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20015; };
+		K20016 /* Accessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20016; };
+		K20017 /* ChickenPose.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20017; };
+		K20018 /* DailyProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20018; };
+		K20019 /* PersistenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20019; };
+		K20020 /* DateHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20020; };
+		K20021 /* CoopJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20021; };
+		K20022 /* ReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20022; };
+		K20023 /* OnboardingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20023; };
+		K20024 /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20024; };
+		K20025 /* CarePathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20025; };
+		K20026 /* EggLogScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20026; };
+		K20027 /* RemindersScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20027; };
+		K20028 /* NotesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20028; };
+		K20029 /* CustomizeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20029; };
+		K20030 /* ProfileScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20030; };
+		K20031 /* PrivacyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20031; };
+		K20032 /* ChickenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20032; };
+		K20033 /* TaskCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20033; };
+		K20034 /* PathStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20034; };
+		K20035 /* StatPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20035; };
+		K20036 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20036; };
+		K20037 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20037; };
+		K20038 /* EggGlyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20038; };
+		K20039 /* AppBackdrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20039; };
+		K20040 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20040; };
+		K20041 /* EmptyHint.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20041; };
+		K20042 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20042; };
+		K20043 /* FarmDecoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20043; };
+		K20044 /* SkyBackdrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20044; };
+		K20045 /* CoopOnHill.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20045; };
+		M20002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = M20001; };
+		M20013 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = M20012; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		L20001 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		L20002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		L20003 /* BeaconCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconCheck.swift; sourceTree = "<group>"; };
+		L20004 /* BeaconCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconCanvas.swift; sourceTree = "<group>"; };
+		L20005 /* BeaconConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconConfig.swift; sourceTree = "<group>"; };
+		L20006 /* BeaconPing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconPing.swift; sourceTree = "<group>"; };
+		L20007 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		L20008 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		L20009 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		L20010 /* CareKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareKind.swift; sourceTree = "<group>"; };
+		L20011 /* CareStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareStatus.swift; sourceTree = "<group>"; };
+		L20012 /* CareTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTask.swift; sourceTree = "<group>"; };
+		L20013 /* EggEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggEntry.swift; sourceTree = "<group>"; };
+		L20014 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		L20015 /* ChickenNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenNote.swift; sourceTree = "<group>"; };
+		L20016 /* Accessory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessory.swift; sourceTree = "<group>"; };
+		L20017 /* ChickenPose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenPose.swift; sourceTree = "<group>"; };
+		L20018 /* DailyProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyProgress.swift; sourceTree = "<group>"; };
+		L20019 /* PersistenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceKeys.swift; sourceTree = "<group>"; };
+		L20020 /* DateHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelpers.swift; sourceTree = "<group>"; };
+		L20021 /* CoopJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopJournal.swift; sourceTree = "<group>"; };
+		L20022 /* ReminderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderScheduler.swift; sourceTree = "<group>"; };
+		L20023 /* OnboardingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScene.swift; sourceTree = "<group>"; };
+		L20024 /* HomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
+		L20025 /* CarePathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarePathScene.swift; sourceTree = "<group>"; };
+		L20026 /* EggLogScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggLogScene.swift; sourceTree = "<group>"; };
+		L20027 /* RemindersScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersScene.swift; sourceTree = "<group>"; };
+		L20028 /* NotesScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesScene.swift; sourceTree = "<group>"; };
+		L20029 /* CustomizeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeScene.swift; sourceTree = "<group>"; };
+		L20030 /* ProfileScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScene.swift; sourceTree = "<group>"; };
+		L20031 /* PrivacyScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyScene.swift; sourceTree = "<group>"; };
+		L20032 /* ChickenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenView.swift; sourceTree = "<group>"; };
+		L20033 /* TaskCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCard.swift; sourceTree = "<group>"; };
+		L20034 /* PathStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathStep.swift; sourceTree = "<group>"; };
+		L20035 /* StatPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatPill.swift; sourceTree = "<group>"; };
+		L20036 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		L20037 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		L20038 /* EggGlyph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggGlyph.swift; sourceTree = "<group>"; };
+		L20039 /* AppBackdrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackdrop.swift; sourceTree = "<group>"; };
+		L20040 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		L20041 /* EmptyHint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyHint.swift; sourceTree = "<group>"; };
+		L20042 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		L20043 /* FarmDecoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmDecoration.swift; sourceTree = "<group>"; };
+		L20044 /* SkyBackdrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyBackdrop.swift; sourceTree = "<group>"; };
+		L20045 /* CoopOnHill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopOnHill.swift; sourceTree = "<group>"; };
+		M20001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		M20010 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		M20011 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		P20012 /* ChickenCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChickenCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		P20010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		N20001 = {
+			isa = PBXGroup;
+			children = (
+				N20002 /* ChickenRoadV2-Federleicht */,
+				N20003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		N20002 /* ChickenRoadV2-Federleicht */ = {
+			isa = PBXGroup;
+			children = (
+				L20001 /* App.swift */,
+				L20002 /* ContentView.swift */,
+				N20010 /* Beacon */,
+				N20011 /* Config */,
+				N20012 /* Theme */,
+				N20013 /* Domain */,
+				N20014 /* Data */,
+				N20015 /* UI */,
+				N20017 /* Resources */,
+				M20001 /* Assets.xcassets */,
+			);
+			path = "ChickenRoadV2-Federleicht";
+			sourceTree = "<group>";
+		};
+		N20010 /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				L20003 /* BeaconCheck.swift */,
+				L20004 /* BeaconCanvas.swift */,
+				L20005 /* BeaconConfig.swift */,
+				L20006 /* BeaconPing.swift */,
+			);
+			path = Beacon;
+			sourceTree = "<group>";
+		};
+		N20011 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				L20007 /* AppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		N20012 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				L20008 /* AppColor.swift */,
+				L20009 /* AppFont.swift */,
+				L20039 /* AppBackdrop.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		N20013 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				L20010 /* CareKind.swift */,
+				L20011 /* CareStatus.swift */,
+				L20012 /* CareTask.swift */,
+				L20013 /* EggEntry.swift */,
+				L20014 /* Reminder.swift */,
+				L20015 /* ChickenNote.swift */,
+				L20016 /* Accessory.swift */,
+				L20017 /* ChickenPose.swift */,
+				L20018 /* DailyProgress.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		N20014 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				L20019 /* PersistenceKeys.swift */,
+				L20020 /* DateHelpers.swift */,
+				L20021 /* CoopJournal.swift */,
+				L20022 /* ReminderScheduler.swift */,
+				L20040 /* Haptics.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		N20015 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				L20023 /* OnboardingScene.swift */,
+				L20024 /* HomeScene.swift */,
+				L20025 /* CarePathScene.swift */,
+				L20026 /* EggLogScene.swift */,
+				L20027 /* RemindersScene.swift */,
+				L20028 /* NotesScene.swift */,
+				L20029 /* CustomizeScene.swift */,
+				L20030 /* ProfileScene.swift */,
+				L20031 /* PrivacyScene.swift */,
+				N20016 /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		N20016 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				L20032 /* ChickenView.swift */,
+				L20033 /* TaskCard.swift */,
+				L20034 /* PathStep.swift */,
+				L20035 /* StatPill.swift */,
+				L20036 /* PrimaryButton.swift */,
+				L20037 /* BadgeView.swift */,
+				L20038 /* EggGlyph.swift */,
+				L20041 /* EmptyHint.swift */,
+				L20042 /* Toast.swift */,
+				L20043 /* FarmDecoration.swift */,
+				L20044 /* SkyBackdrop.swift */,
+				L20045 /* CoopOnHill.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		N20017 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				M20012 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		N20003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				P20012 /* ChickenCompanion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXVariantGroup section */
+		M20012 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				M20010 /* de */,
+				M20011 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin PBXNativeTarget section */
+		P20002 /* ChickenRoadV2-Federleicht */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = P20004;
+			buildPhases = (
+				P20009 /* Sources */,
+				P20010 /* Frameworks */,
+				P20011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChickenRoadV2-Federleicht";
+			productName = ChickenCompanion;
+			productReference = P20012 /* ChickenCompanion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P20001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					P20002 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = P20003;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				de,
+				en,
+				Base,
+			);
+			mainGroup = N20001;
+			productRefGroup = N20003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				P20002 /* ChickenRoadV2-Federleicht */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		P20011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				M20013 /* Localizable.strings in Resources */,
+				M20002 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		P20009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				K20001 /* App.swift in Sources */,
+				K20002 /* ContentView.swift in Sources */,
+				K20003 /* BeaconCheck.swift in Sources */,
+				K20004 /* BeaconCanvas.swift in Sources */,
+				K20005 /* BeaconConfig.swift in Sources */,
+				K20006 /* BeaconPing.swift in Sources */,
+				K20007 /* AppConfig.swift in Sources */,
+				K20008 /* AppColor.swift in Sources */,
+				K20009 /* AppFont.swift in Sources */,
+				K20010 /* CareKind.swift in Sources */,
+				K20011 /* CareStatus.swift in Sources */,
+				K20012 /* CareTask.swift in Sources */,
+				K20013 /* EggEntry.swift in Sources */,
+				K20014 /* Reminder.swift in Sources */,
+				K20015 /* ChickenNote.swift in Sources */,
+				K20016 /* Accessory.swift in Sources */,
+				K20017 /* ChickenPose.swift in Sources */,
+				K20018 /* DailyProgress.swift in Sources */,
+				K20019 /* PersistenceKeys.swift in Sources */,
+				K20020 /* DateHelpers.swift in Sources */,
+				K20021 /* CoopJournal.swift in Sources */,
+				K20022 /* ReminderScheduler.swift in Sources */,
+				K20023 /* OnboardingScene.swift in Sources */,
+				K20024 /* HomeScene.swift in Sources */,
+				K20025 /* CarePathScene.swift in Sources */,
+				K20026 /* EggLogScene.swift in Sources */,
+				K20027 /* RemindersScene.swift in Sources */,
+				K20028 /* NotesScene.swift in Sources */,
+				K20029 /* CustomizeScene.swift in Sources */,
+				K20030 /* ProfileScene.swift in Sources */,
+				K20031 /* PrivacyScene.swift in Sources */,
+				K20032 /* ChickenView.swift in Sources */,
+				K20033 /* TaskCard.swift in Sources */,
+				K20034 /* PathStep.swift in Sources */,
+				K20035 /* StatPill.swift in Sources */,
+				K20036 /* PrimaryButton.swift in Sources */,
+				K20037 /* BadgeView.swift in Sources */,
+				K20038 /* EggGlyph.swift in Sources */,
+				K20039 /* AppBackdrop.swift in Sources */,
+				K20040 /* Haptics.swift in Sources */,
+				K20041 /* EmptyHint.swift in Sources */,
+				K20042 /* Toast.swift in Sources */,
+				K20043 /* FarmDecoration.swift in Sources */,
+				K20044 /* SkyBackdrop.swift in Sources */,
+				K20045 /* CoopOnHill.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		P20005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		P20006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		P20007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7PDZ3WCUA;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chicken Check";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Diagnostic proxy for development";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hallowtommy.federleicht;
+				PRODUCT_NAME = ChickenCompanion;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		P20008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7PDZ3WCUA;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chicken Check";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Diagnostic proxy for development";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hallowtommy.federleicht;
+				PRODUCT_NAME = ChickenCompanion;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		P20003 /* Build configuration list for PBXProject "ChickenRoadV2-Federleicht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				P20005 /* Debug */,
+				P20006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		P20004 /* Build configuration list for PBXNativeTarget "ChickenRoadV2-Federleicht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				P20007 /* Debug */,
+				P20008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = P20001 /* Project object */;
+}
