@@ -7,8 +7,8 @@ enum AppConfig {
     static let relayWindow: TimeInterval = 12
     static let relayTargets: Set<Int>? = nil
 
-    static let policyURL = "https://hallowtommy.github.io/federleicht-privacy"
-    static let supportMail = "support@federleicht.app"
+    static let policyURL = "https://www.termsfeed.com/live/15536143-8610-44a8-bf8d-7d8b5f647537"
+    static let supportMail = "jamnabilsi@icloud.com"
 
     static var marketingVersion: String {
         Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0"
