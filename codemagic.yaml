@@ -7,8 +7,8 @@ workflows:
     environment:
       xcode: latest
       vars:
-        XCODE_PROJECT: "habittracker.xcodeproj"
-        XCODE_SCHEME: "habittracker"
+        XCODE_PROJECT: "ChickenRoadV2-Federleicht.xcodeproj"
+        XCODE_SCHEME: "ChickenRoadV2-Federleicht"
 
     scripts:
       - name: Show Xcode project info
